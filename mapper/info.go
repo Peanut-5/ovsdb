@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 )
 
 // Info is a struct that handles the type map of an object

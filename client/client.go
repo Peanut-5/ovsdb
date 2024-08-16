@@ -12,14 +12,14 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Peanut-5/ovsdb/cache"
+	"github.com/Peanut-5/ovsdb/mapper"
+	"github.com/Peanut-5/ovsdb/model"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 	"github.com/cenkalti/backoff/v4"
 	"github.com/cenkalti/rpc2"
 	"github.com/cenkalti/rpc2/jsonrpc"
 	"github.com/google/uuid"
-	"github.com/ovn-org/libovsdb/cache"
-	"github.com/ovn-org/libovsdb/mapper"
-	"github.com/ovn-org/libovsdb/model"
-	"github.com/ovn-org/libovsdb/ovsdb"
 )
 
 // Constants defined for libovsdb

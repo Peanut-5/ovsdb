@@ -5,8 +5,8 @@ import (
 	"log"
 	"sync"
 
+	"github.com/Peanut-5/ovsdb/ovsdb"
 	"github.com/cenkalti/rpc2"
-	"github.com/ovn-org/libovsdb/ovsdb"
 )
 
 // connectionMonitors maps a connection to a map or monitors

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

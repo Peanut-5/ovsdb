@@ -5,7 +5,7 @@ import (
 	"sort"
 	"text/template"
 
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 )
 
 // NewDBTemplate return a new DBModel template
@@ -28,8 +28,8 @@ func NewDBTemplate() *template.Template {
  import (
 	"encoding/json"
 
-	"github.com/ovn-org/libovsdb/model"
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/model"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 )
 {{- end }}
 {{ define "postDBDefinitions" }}{{ end }}

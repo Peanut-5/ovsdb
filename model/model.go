@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ovn-org/libovsdb/mapper"
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/mapper"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 )
 
 // A Model is the base interface used to build Database Models. It is used

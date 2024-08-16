@@ -2,7 +2,7 @@
 all: lint build test integration-test coverage
 
 .PHONY: prebuild
-prebuild: 
+prebuild:
 	@echo "+ $@"
 	@mkdir -p bin
 	@go build -v -o ./bin ./cmd/modelgen
@@ -10,7 +10,7 @@ prebuild:
 	@go generate -v ./...
 
 .PHONY: build
-build: prebuild 
+build: prebuild
 	@echo "+ $@"
 	@go build -v ./...
 
@@ -22,7 +22,7 @@ test:
 .PHONY: integration-test
 integration-test:
 	@echo "+ $@"
-	@go test -race -coverprofile=integration.cov -coverpkg=github.com/ovn-org/libovsdb/... -timeout 60s -v ./test/ovs
+	@go test -race -coverprofile=integration.cov -coverpkg=github.com/Peanut-5/ovsdb/... -timeout 60s -v ./test/ovs
 
 .PHONY: coverage
 coverage: test integration-test

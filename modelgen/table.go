@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 )
 
 // NewTableTemplate returns a new table template

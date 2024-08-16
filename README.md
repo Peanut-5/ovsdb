@@ -1,7 +1,7 @@
 libovsdb
 ========
 
-[![libovsb-ci](https://github.com/ovn-org/libovsdb/actions/workflows/ci.yml/badge.svg)](https://github.com/ovn-org/libovsdb/actions/workflows/ci.yml) [![Coverage Status](https://coveralls.io/repos/github/ovn-org/libovsdb/badge.svg?branch=main)](https://coveralls.io/github/ovn-org/libovsdb?branch=main) [![Go Report Card](https://goreportcard.com/badge/github.com/ovn-org/libovsdb)](https://goreportcard.com/report/github.com/ovn-org/libovsdb)
+[![libovsb-ci](https://github.com/Peanut-5/ovsdb/actions/workflows/ci.yml/badge.svg)](https://github.com/Peanut-5/ovsdb/actions/workflows/ci.yml) [![Coverage Status](https://coveralls.io/repos/github/Peanut-5/ovsdb/badge.svg?branch=main)](https://coveralls.io/github/Peanut-5/ovsdb?branch=main) [![Go Report Card](https://goreportcard.com/badge/github.com/Peanut-5/ovsdb)](https://goreportcard.com/report/github.com/Peanut-5/ovsdb)
 
 An OVSDB Library written in Go
 
@@ -83,18 +83,18 @@ This package is divided into several sub-packages. Documentation for each sub-pa
 * **modelgen**: common code-generator functions  [![godoc for libovsdb/modelgen][genbadge]][gendoc]
 
 [doc]: https://pkg.go.dev/
-[clientbadge]: https://pkg.go.dev/badge/github.com/ovn-org/libovsdb/client
-[mapperbadge]: https://pkg.go.dev/badge/github.com/ovn-org/libovsdb/mapper
-[modelbadge]: https://pkg.go.dev/badge/github.com/ovn-org/libovsdb/model
-[ovsdbbadge]: https://pkg.go.dev/badge/github.com/ovn-org/libovsdb/ovsdb
-[cachebadge]: https://pkg.go.dev/badge/github.com/ovn-org/libovsdb/cache
-[genbadge]: https://pkg.go.dev/badge/github.com/ovn-org/libovsdb/modelgen
-[clientdoc]: https://pkg.go.dev/github.com/ovn-org/libovsdb/client
-[mapperdoc]: https://pkg.go.dev/github.com/ovn-org/libovsdb/mapper
-[modeldoc]: https://pkg.go.dev/github.com/ovn-org/libovsdb/model
-[ovsdbdoc]: https://pkg.go.dev/github.com/ovn-org/libovsdb/ovsdb
-[cachedoc]: https://pkg.go.dev/github.com/ovn-org/libovsdb/cache
-[gendoc]: https://pkg.go.dev/github.com/ovn-org/libovsdb/modelgen
+[clientbadge]: https://pkg.go.dev/badge/github.com/Peanut-5/ovsdb/client
+[mapperbadge]: https://pkg.go.dev/badge/github.com/Peanut-5/ovsdb/mapper
+[modelbadge]: https://pkg.go.dev/badge/github.com/Peanut-5/ovsdb/model
+[ovsdbbadge]: https://pkg.go.dev/badge/github.com/Peanut-5/ovsdb/ovsdb
+[cachebadge]: https://pkg.go.dev/badge/github.com/Peanut-5/ovsdb/cache
+[genbadge]: https://pkg.go.dev/badge/github.com/Peanut-5/ovsdb/modelgen
+[clientdoc]: https://pkg.go.dev/github.com/Peanut-5/ovsdb/client
+[mapperdoc]: https://pkg.go.dev/github.com/Peanut-5/ovsdb/mapper
+[modeldoc]: https://pkg.go.dev/github.com/Peanut-5/ovsdb/model
+[ovsdbdoc]: https://pkg.go.dev/github.com/Peanut-5/ovsdb/ovsdb
+[cachedoc]: https://pkg.go.dev/github.com/Peanut-5/ovsdb/cache
+[gendoc]: https://pkg.go.dev/github.com/Peanut-5/ovsdb/modelgen
 
 ## Quick API Examples
 
@@ -196,7 +196,7 @@ In this repository there is also a code-generator capable of generating all the 
 
 It can be used as follows:
 
-    go install github.com/ovn-org/libovsdb/cmd/modelgen
+    go install github.com/Peanut-5/ovsdb/cmd/modelgen
 
     $GOPATH/bin/modelgen -p ${PACKAGE_NAME} -o {OUT_DIR} ${OVSDB_SCHEMA}
     Usage of modelgen:
@@ -231,7 +231,7 @@ In your application, load the DBModel, connect to the server and start interacti
 
     import (
         "fmt"
-        "github.com/ovn-org/libovsdb/client"
+        "github.com/Peanut-5/ovsdb/client"
 
         generated "example.com/example/mypackage"
     )

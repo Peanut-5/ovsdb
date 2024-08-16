@@ -6,11 +6,11 @@ import (
 	"net"
 	"sync"
 
+	"github.com/Peanut-5/ovsdb/model"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 	"github.com/cenkalti/rpc2"
 	"github.com/cenkalti/rpc2/jsonrpc"
 	"github.com/google/uuid"
-	"github.com/ovn-org/libovsdb/model"
-	"github.com/ovn-org/libovsdb/ovsdb"
 )
 
 // OvsdbServer is an ovsdb server

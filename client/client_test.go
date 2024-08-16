@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Peanut-5/ovsdb/cache"
+	"github.com/Peanut-5/ovsdb/model"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 	"github.com/cenkalti/rpc2"
-	"github.com/ovn-org/libovsdb/cache"
-	"github.com/ovn-org/libovsdb/model"
-	"github.com/ovn-org/libovsdb/ovsdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

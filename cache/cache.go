@@ -12,9 +12,9 @@ import (
 
 	"log"
 
-	"github.com/ovn-org/libovsdb/mapper"
-	"github.com/ovn-org/libovsdb/model"
-	"github.com/ovn-org/libovsdb/ovsdb"
+	"github.com/Peanut-5/ovsdb/mapper"
+	"github.com/Peanut-5/ovsdb/model"
+	"github.com/Peanut-5/ovsdb/ovsdb"
 )
 
 const (
