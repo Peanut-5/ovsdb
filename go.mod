@@ -1,4 +1,4 @@
-module github.com/ovn-org/libovsdb
+module github.com/Peanut-5/ovsdb
 
 go 1.16
 
